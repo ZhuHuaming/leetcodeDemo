@@ -15,6 +15,4 @@ public class LeetCode14 {
             }
         return prefix;
     }
-
-
 }
