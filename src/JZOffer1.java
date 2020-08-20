@@ -14,7 +14,7 @@ public class JZOffer1 {
         }));
     }
 
-    /** 主要就是一个查找的问题，如果是*/
+    /** 主要就是一个查找的问题，可以考虑从左下角开始查找，然后根据表原本的有序性，进行位置的变换*/
     public static boolean Find(int target, int[][] array) {
         //行长度
         int rowlength = array.length;
